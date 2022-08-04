@@ -1,0 +1,66 @@
+body{ 
+    width: fit-content;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:url(background.jpg);
+    background-size: 100%;
+}
+  /* Impostare bordo e margini seza flex-box */
+.conteiner{
+    border-radius: 1em;
+    width: 1000px;
+    background-color: rgba(0 , 0 , 0 , 0.5);
+    padding: 40 30 80 90;
+    margin: 50 40 50 90;
+    
+}
+.logo{
+    display:block;
+    margin:0px auto;
+    text-align:center;
+    width: 30%;
+}
+.titolo{
+    font-size: 1.5em;
+    text-align: center;
+    color: #00dd00;
+}
+nav{
+    background-color: #00dd00;
+
+}
+nav>div{
+    padding: 10;
+    display:block;
+    margin:0px auto;
+    text-align:center;
+    
+}
+main>section{
+    color: white;
+}
+.Quadratino{
+    width: 1000px;
+}
+div.carica{
+       border-radius: 0.25em;
+       display: inline-block;
+}
+.Carica1{
+    padding: 10 0 15 200;
+    background-color: #f5b453;
+    
+}
+.Carica2{
+    padding: 10 0 15 400;
+    background-color: #1ec31e;
+    display: inline-block;
+}
+.Carica3{
+    padding: 10 0 15 90;
+    background-color: #be4141;
+    display: inline-block;
+}
+p{
+    margin: 1px;
+}
